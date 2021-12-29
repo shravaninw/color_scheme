@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-abstract class Theme {
+abstract class AppTheme {
    final ColorScheme lightScheme = ColorScheme(
     primary: Colors.white,
     primaryVariant: Colors.black,
@@ -31,4 +31,5 @@ abstract class Theme {
     onError: Colors.red,
     brightness: Brightness.dark,
   );
+   final ColorScheme scheme=ColorScheme.dark();
 }
